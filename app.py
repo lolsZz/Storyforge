@@ -8,8 +8,8 @@ from io import BytesIO
 load_dotenv()
 import os
 
-clarifai_pat = "YOUR_PAT_GOES_HERE"
-openai_api_key = "GPT-3_5-turbo:openai"  
+clarifai_pat = st.secrets["CLARIFAI_PAT"]
+openai_api_key = st.secrets["OPEN_AI"] 
 
 #Image Generation Game concept
 def generate_image(prompt, api_key):
