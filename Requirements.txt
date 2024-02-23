@@ -1,3 +1,4 @@
 streamlit
 clarifai
 dotenv
+clarifai.client.model
