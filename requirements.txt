@@ -1,4 +1,0 @@
-streamlit
-dotenv
-clarifai==10.0.1
-clarifai-grpc==10.0.4
