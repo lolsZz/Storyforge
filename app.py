@@ -8,8 +8,8 @@ from io import BytesIO
 load_dotenv()
 import os
 
-clarifai_pat = os.getenv("CLARIFAI_PAT")
-openai_api_key = os.getenv("OPEN_AI")
+clarifai_pat = st.secrets.c_credentials.clarifai_key  
+openai_api_key = st.secrets.a_credentials.openai_key  
 
 #Image Generation Game concept
 def generate_image(prompt, api_key):
